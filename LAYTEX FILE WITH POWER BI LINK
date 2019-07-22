@@ -1,0 +1,105 @@
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+
+\title{Power BI - Emerging Technologies - Assignment 3}
+\author{Shaminder kaur}
+
+\maketitle
+\begin{abstract}
+Developing the Big Data Solution using Power BI.
+
+Our Outcome is to practice our Data Analytics Skills.
+\end{abstract}
+
+\begin{enumerate}
+\item Understanding what Power BI is
+\item Creating a Simple Data Analytics Report using Power BI.
+\end{enumerate}
+
+\section {What you are to hand in:}
+You will hand in a LATEX document in GitHub
+You will provide the URL to your GitHub Repository with the Moodle Work Hand In Database
+\begin{itemize}
+\item Complete the table below with the following information:
+\subsection {Top, Average, and Lowest Selling prices for each of the North, South and Central Communities}
+
+
+\subsection {Provide the URL LINK to your Power BI Web Service Report which shows charts for:}
+
+https://app.powerbi.com/view?r=eyJrIjoiYTJkNzY3MWMtOWViZS00MDk1LWI1NDEtNWMxNjk1NDdmYTFmIiwidCI6ImI2NDE3Y2QwLTFmNzMtNDQ3MS05YTM5LTIwOTUzODIyYTM0YSIsImMiOjN9
+
+\end{itemize}
+
+\section {Sample Table Code}
+\begin{verbatim}
+\subsection {Top, Average, and Lowest Selling prices for each of the North, South and Central Communities}
+
+\begin{table}[h!]
+  \begin{center}
+    \caption{Class Agenda }
+ 
+    \begin{tabular}{l|c|r} 
+     
+      \hline
+      NAME    &  TOP & LOW & AVERAGE\\
+      \hline
+       CENTRAL PARK & 90900& 450000 & 619769.82 \\
+      \hline
+      NORTHGATE & 1051235 & 440000 & 608204.58 \\
+      \hline
+      SOUTHGATE & 807500 & 55000 & 646376.69\\
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\subsubsection {Sold Price (Average) by House Type for each of the 3 communities}
+\begin{table}[h!]
+  \begin{center}
+    \caption{Class Agenda }
+ 
+    \begin{tabular}{l|c|r} 
+     
+      \hline
+      NAME    &  AVERAGE\\
+      \hline
+       CENTRAL PARK & 619769.82 \\
+      \hline
+      NORTHGATE & 608204.58 \\
+      \hline
+      SOUTHGATE & 646376.69\\
+    \end{tabular}
+  \end{center}
+\end{table}
+\subsubsection {Sold Price (Average) by House Type for each of the house Descriptions}
+\begin{table}[h!]
+  \begin{center}
+    \caption{Class Agenda }
+ 
+    \begin{tabular}{l|c|r} 
+     
+      \hline
+      NAME    &  AVERAGE\\
+      \hline
+         3_STOREY & 1203500\\
+      \hline
+       SIDESPLIT 4 & 1971000 \\
+      \hline
+         SIDESPLIT 3 & 1976000 \\
+      \hline
+       BACKSPLIT 3 & 2529000 \\
+      \hline
+      BUNGALOW_RA & 5397500  \\
+      \hline
+      BACKSPLIT 3 &10495000  \\
+      \hline
+       BUNGALOW & 09976658 \\
+      \hline
+       2_STOREY & 69940530 \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+\end{verbatim}
+
+\end{document}
